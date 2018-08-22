@@ -6,6 +6,13 @@ body {
   opacity: 0.9;
 }
 
+.content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto 78px auto;
+  padding-top: 70px;
+}
+
 /*Header Section*/
 header {
   display: flex;
@@ -14,7 +21,14 @@ header {
   width: 100%;
   position: fixed;
   border-bottom: 1px solid seashell;
-  z-index: 3;
+  z-index: 10;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .logo img {
@@ -23,14 +37,29 @@ header {
   height: 50px;
 }
 
-header nav {
-  text-align: right;
-}
-
 header nav span a {
   display: inline-flex;
-  justify-content: flex-end;
-  margin-right: 0px;
   color: seashell;
   padding: 10px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero img {
+  height: 700px;
+  width: 1200px;
+}
+
+.hero-text {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  background-color: black;
+  z-index: 2;
+  width: 1200px;
+  height: 100px;
 }
