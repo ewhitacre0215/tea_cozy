@@ -4,6 +4,7 @@ body {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  font-weight: bold;
 }
 
 .content {
@@ -11,6 +12,11 @@ body {
   width: 1200px;
   margin: 0 auto 78px auto;
   padding-top: 70px;
+}
+
+h2 {
+  font-size: 35px;
+  padding: 15px;
 }
 
 /*Header Section*/
@@ -55,11 +61,11 @@ header nav span a {
 }
 
 .hero-text {
-  display: flex;
+  display: block;
   position: absolute;
-  justify-content: center;
+  text-align: center;
   background-color: black;
   z-index: 2;
   width: 1200px;
-  height: 100px;
+  height: 110px;
 }
