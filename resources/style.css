@@ -76,12 +76,12 @@ header nav span a {
   display: flex;
   flex-wrap: wrap;
   width: 1000px;
-  height: 700px;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .featured-text {
@@ -90,11 +90,12 @@ header nav span a {
 }
 
 .tea-options {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
+  align-items: center;
 }
 
 .tea img {
@@ -106,4 +107,33 @@ header nav span a {
 
 .tea span {
   margin: 30px;
+}
+
+/* Locations */
+.places {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.places img {
+  height: 500px;
+}
+
+.location-text {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+}
+
+.location-options {
+  display: inline-flex;
+}
+
+.local {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  z-index: 5;
 }
